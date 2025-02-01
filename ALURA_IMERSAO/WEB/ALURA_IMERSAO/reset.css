@@ -1,0 +1,28 @@
+/* Reset básico para remover estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%; /* Define a base para o tamanho da fonte */
+}
+
+body {
+    line-height: 1.5; /* Melhora a legibilidade do texto */
+}
+
+ul {
+    list-style: none; /* Remove os marcadores das listas */
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: inherit; /* Faz com que a cor do link herde a cor do texto */
+}
+
+img {
+    max-width: 100%; /* Garante que as imagens não ultrapassem a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
